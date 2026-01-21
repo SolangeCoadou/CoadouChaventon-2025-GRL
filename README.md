@@ -3,7 +3,7 @@
 Authors: S. Coadou-Chaventon, S. Swart, G. Novelli, S. Speich
 
 
-This is a repository for the data analyses and figures of Coadou-Chaventon et al. (2025) - *Resolving Sharper Fronts of the Agulhas Current Retroflection Using SWOT Altimetry*
+This is a repository for the data analyses and figures of Coadou-Chaventon et al. (2025) - [*Resolving Sharper Fronts of the Agulhas Current Retroflection Using SWOT Altimetry*](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL115203)
 
 ### Abstract
 
