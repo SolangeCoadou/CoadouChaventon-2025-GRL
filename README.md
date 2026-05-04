@@ -6,11 +6,12 @@ Authors: S. Coadou-Chaventon, S. Swart, G. Novelli, S. Speich
 This is a repository for the data analyses and figures of Coadou-Chaventon et al. (2025) - [*Resolving Sharper Fronts of the Agulhas Current Retroflection Using SWOT Altimetry*](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL115203)
 
 ### Abstract
-
+<p align="justify">
 As a cutting-edge altimetry product, the Surface Water and Ocean Topography (SWOT) satellite observations require validation against in situ measurements and existing satellite data sets. During the fast-repeat phase of the mission, daily SWOT altimetry retrievals capture submesoscale ocean eddies (30 km) amidst larger mesoscale (100–200 km) structures in the dynamic Agulhas Current Retroflection region. Our results reveal that SWOT significantly enhances the resolution of the Agulhas Current's frontal features, producing sea surface height gradients that are 28% sharper compared to conventional altimetry products. Comparisons with in situ velocity observations from an underwater glider and surface drifters, further demonstrate SWOT's unparalleled capability to detect the strongest velocities and velocity gradients. These findings mark a pivotal step forward in resolving fine-scale ocean circulation from satellite altimetry, with promising implications for unveiling horizontal and vertical dynamics in western boundary currents and beyond.
+</p>
 
 ### Workflow
-
+<p align="justify">
 The notebooks are organized as follows:
 
 1. Comparison of SWOT with DUACS and SST for two given days. Highlights SWOT capacity to detect submesoscale features and more intense velocities along the Agulhas Retroflection front (Figure 1) - [01_FineScaleViews.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2025-GRL/blob/main/01_FineScaleViews.ipynb)
@@ -22,6 +23,7 @@ All the functions are available in a separate file (functions.py) and loaded at 
 
 We made use of T. Tranchant's Python toolbox [SwotDiag](https://github.com/treden/SwotDiag) to compute the Rossby number map on SWOT data.
 To compute Monte Carlo Singular Spectrum Analysis on the drifters velocities, we relied on the [mcssa](https://github.com/VSainteuf/mcssa) python module.
+</p>
 
 ### Data sources
 
